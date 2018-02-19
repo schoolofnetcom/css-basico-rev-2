@@ -1,0 +1,17 @@
+input[type="text"] {
+    background: #fff;
+    border: 3px dashed teal;
+    padding: 10px 20px;
+    width: 300px;
+    margin: 5px 0 10px 0;
+    color: #777;
+    display: block;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type="text"]:focus {
+    border: 3px dashed tomato;
+    transition: all .5s ease;
+}

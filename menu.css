@@ -1,0 +1,27 @@
+nav, nav * {
+    border: none;
+    color: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.7);
+    text-decoration: underline;
+    transition: all .5s ease;
+}
+
+nav.horizontal ul li {
+    display: inline-block;
+}

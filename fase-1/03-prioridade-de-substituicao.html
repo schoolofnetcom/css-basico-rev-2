@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*
+            tag
+            classe
+            id
+
+        #header .logomarca {
+            color: blue;
+        }
+
+        .logomarca {
+            color: red;
+        }
+        */
+
+        .header a {
+            color: blue;
+        }
+
+        header a {
+            color: red;
+        }
+
+        #header div div a {
+            background-color: fuchsia;
+            color: gray;
+        }
+
+        #header div div a {
+            color: blueviolet;
+        }
+
+        #header a {
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <div>
+            <div><a href="" class="logomarca">Logomarca</a></div>
+        </div>
+    </header>
+    <main id="content">
+        <section>
+            <h1 class="logomarca">Conteúdo</h1>
+            <p>Um texto qualquer</p>
+        </section>
+    </main>
+    <footer id="footer">
+        <section>
+            <p class="logomarca">&copy; Todos os direitos reservados</p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            border: 1px solid red;
+        }
+        header + main {
+            border: 5px solid blue;
+        }
+        header ~ main {
+            border: 5px solid blue;
+        }
+        a[title="Meu logo"] {
+            color: red;
+        }
+
+        a[class*="btn"] {
+            text-decoration: none;
+            background-color: #ecf0f1;
+            color: #7f8c8d;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .btn-red {
+            background-color: #e74c3c !important;
+            color: #fff !important;
+        }
+
+        .btn-red:hover {
+            background-color: #c0392b !important;
+        }
+
+        .btn-blue {
+            background-color: #3498db !important;
+            color: #fff !important;
+        }
+
+        .btn-blue:hover {
+            background-color: #2980b9 !important;
+        }
+
+        .btn-green {
+            background-color: #1abc9c !important;
+            color: #fff !important;
+        }
+
+        .btn-green:hover {
+            background-color: #16a085 !important;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <div>
+                <a href="" class="logomarca" title="Meu logo">Logomarca</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1 class="logomarca">Conteúdo</h1>
+            <p>Um texto qualquer</p>
+            <a href="" title="link qualquer">Um link qualquer</a>
+            <a href="">Outro link qualquer</a>
+
+            <p>
+                <a href="" class="btn-red">item 1</a>
+                <a href="" class="btn-blue">item 2</a>
+                <a href="" class="btn-green">item 3</a>
+            </p>
+        </section>
+    </main>
+    <footer id="footer">
+        <div>
+            <p class="logomarca">&copy; Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
